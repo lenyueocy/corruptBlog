@@ -1,1 +1,0 @@
-$(document).ready(function(){$('.fancybox').fancybox();$("a[href$=jpg],a[href$=png],a[href$=gif],a[href$=jpeg],a[href$=bmp]").attr({"data-fancybox-group":"thumb"}).fancybox({prevEffect:'none',nextEffect:'none',closeBtn:true,arrows:true,nextClick:false,helpers:{thumbs:{width:60,height:60},title:{type:'over'}}});});
