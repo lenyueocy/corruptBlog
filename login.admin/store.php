@@ -6,6 +6,14 @@
 
 require_once 'globals.php';
 
+
+if($_GET['source'] && strpos(OFFICIAL_SERVICE_HOST.$_GET['source'],'//template')){
+    $_GET['source'] = str_replace("/template","template",$_GET['source']);
+}
+if($_GET['source'] && strpos(OFFICIAL_SERVICE_HOST.$_GET['source'],'//plugin')){
+    $_GET['source'] = str_replace("/plugin","plugin",$_GET['source']);
+}
+
 if ($action == '') {
 	$site_url_encode = rawurlencode(base64_encode(BLOG_URL));
 	include View::getView('header');
@@ -42,6 +50,7 @@ if ($action == 'addon') {
 	}
 
 	$temp_file = emFecthFile(OFFICIAL_SERVICE_HOST . $source);
+
 	if (!$temp_file) {
 		 exit('error_down');
 	}

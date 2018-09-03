@@ -804,6 +804,8 @@ function emZip($orig_fname, $content) {
  * @return 临时文件地址
  */
 function emFecthFile($source) {
+    if(!is_dir('../temp'))
+        mkdir('../temp',0777);
     $temp_file = tempnam('../tmp', 'corrupt_');
     tempnam('../tmp', 'corrupt_bak_');
     $rh = fopen($source, 'rb');
