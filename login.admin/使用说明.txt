@@ -1,0 +1,5 @@
+直接覆盖admin文件夹
+
+!!!注意备份原先的admin文件夹!!!
+
+www.cnhack.me

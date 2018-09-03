@@ -1,1 +1,1 @@
-<?php exit;//a:0:{}
+<?php exit;//a:2:{i:2;a:3:{s:4:"name";s:12:"漏洞资讯";s:2:"id";s:1:"2";s:5:"alias";s:1:"B";}i:4;a:3:{s:4:"name";s:13:"Windows/Linux";s:2:"id";s:1:"4";s:5:"alias";s:1:"D";}}

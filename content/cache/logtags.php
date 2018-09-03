@@ -1,1 +1,1 @@
-<?php exit;//a:1:{i:1;a:0:{}}
+<?php exit;//a:2:{i:2;a:1:{i:0;a:3:{s:7:"tagname";s:15:"网络安全法";s:3:"tid";i:1;s:6:"tagurl";s:45:"%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E6%B3%95";}}i:4;a:1:{i:0;a:3:{s:7:"tagname";s:5:"Nginx";s:3:"tid";i:3;s:6:"tagurl";s:5:"Nginx";}}}

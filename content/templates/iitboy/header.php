@@ -1,10 +1,10 @@
-<?php
+﻿<?php
 /*
 Template Name:寒光唯美式V2.4.1
 Description:二次元，小清新 唯美~~~ 
-Version:<span style="color:#E60026;">响应式模版，自适应手机 电脑 平板等。完美兼容多说。<<br>修改embed.js的多说ID<br>必装插件：主题编辑 多说 <br>QQ:987284242 请支持正版模版</span>
-Author:寒光
-Author Url:http://www.iitboy.cn/
+Version:<span style="color:#E60026;">响应式模版，自适应手机 电脑 平板等。完美兼容多说。<<br>修改embed.js的多说ID<br>必装插件：主题编辑 多说 <br>QQ:55768987 请支持正版模版</span>
+Author:Corrupt堕落
+Author Url:http://www.ddos-sec.cn/
 Sidebar Amount:1
 */
 
@@ -180,14 +180,14 @@ require_once View::getView('module');
     <div class="bg-fixed"></div>
     <div class="donghua">
       <div id="iitboy_logo">
-        <a href="/" title="寒光博客">
+        <a href="/" title="堕落博客">
           <img src="<?php echo TEMPLATE_URL; ?>images/logo.png" class="animated tada"></a>
         <br>
         <div id="tock" style="top:-3px">
           <div class="hibox">
             <div class="hi container">
               <a href="javascript:;" onclick="getkoto();" title="换一条">
-                <span class="hitokoto" id="hitokoto">Loading...（欢迎来到寒光博客~我是会动的哟！）</span></a>
+                <span class="hitokoto" id="hitokoto">Loading...（欢迎来到堕落博客~我是会动的哟！）</span></a>
             </div>
           </div>
         </div>

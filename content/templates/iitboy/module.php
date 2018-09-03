@@ -1,4 +1,4 @@
-<?php 
+﻿<?php 
 /**
  * 侧边栏组件、页面模块
  */
@@ -27,7 +27,7 @@ function widget_blogger($title){
 	<div id="zidingyi">
 	<ul>
 	<div id="qq">
-<a href="http://wpa.qq.com/msgrd?v=3&uin=987284242&site=qq&menu=yes" target="_blank" class="hint--top  hint--rounded" data-hint="在线联系站长QQ">
+<a href="http://wpa.qq.com/msgrd?v=3&uin=55768987&site=qq&menu=yes" target="_blank" class="hint--top  hint--rounded" data-hint="在线联系站长QQ">
 <img src="/content/templates/iitboy/images/qq.png" onmouseover="this.src='/content/templates/iitboy/images/qq2.png'" onmouseout="this.src='/content/templates/iitboy/images/qq.png'"></a> 
 <a href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=w-r79PH79-H38YOysu2grK4" target="_blank" class="hint--top  hint--rounded" data-hint="在线给站长写信。">
 <img src="/content/templates/iitboy/images/mail.png" onmouseover="this.src='/content/templates/iitboy/images/mail2.png'" onmouseout="this.src='/content/templates/iitboy/images/mail.png'"></a> 
